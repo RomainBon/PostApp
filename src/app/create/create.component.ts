@@ -1,6 +1,8 @@
 import { Component,  } from '@angular/core';
 import { Post } from '../Post';
 import { PostProviderService } from '../post-provider.service';
+import { UserProviderService } from '../user-provider.service';
+import { User } from '../User';
 
 @Component({
   selector: 'app-create',
@@ -9,11 +11,16 @@ import { PostProviderService } from '../post-provider.service';
 })
 export class CreateComponent{
   newPost = new Post();
+  userList: Array<User>;
 
-  constructor(private provider : PostProviderService){}
+  constructor(private postProvider : PostProviderService,
+    private UserProvider: UserProviderService){}
+    ngOnInit() {
+      this.UserProvider.getUser().subscribe(users => this.userList = users)
+    }
 
   addPosts() {
-    this.provider.add(this.newPost);
+    this.postProvider.add(this.newPost);
     this.newPost = new Post();
   }
 }

@@ -25,7 +25,7 @@ export class PostProviderService {
 
   add(newPost:Post){
     this.date= new Date;
-    newPost.date = this.date
+    newPost.date = this.date.getDate().toLocaleString()+"/" +( this.date.getMonth() + 1 ) + "/" + this.date.getFullYear().toString();
     //ajoute au debut du tableau
     this.posts.push(newPost);
     //notifie tous abooné avec la nouvelle version de la liste

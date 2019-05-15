@@ -1,18 +1,13 @@
 <form (ngSubmit)="addPosts(); form.reset()" #form="ngForm">
   <div>
     <label for="create[user]">User </label>
-    <select name="user" id="create[user]" [(ngModel)]="newPost.user" required>
-      <option value="Jean Gulé">Jean Gulé</option>
-      <option value="Adam Tifrise">Adam Tifrise</option>
-      <option value="Mylène Pelote">Mylène Pelote</option>
+    <select name="user" id="create[user]" [(ngModel)]="newPost.user" required >
+      <option *ngFor="let user of userList" value= "{{ user.name }}">{{user.name}}</option>
     </select>
   </div>
   <div>
     <label for="create[message]">Message</label>
-    <textarea type="text" id="create[message]" name="name" [(ngModel)]="newPost.message" required pattern="[a-zA-Z0-9 _-]*"
-      #inputName="ngModel"></textarea>
-    <p class="pValid" [hidden]="inputName.valid || inputName.untouched">Vous ne pouvez utiliser que des lettre , des
-      chiffre et des espaces</p>
+    <textarea type="text" id="create[message]" name="name" [(ngModel)]="newPost.message" required #inputName="ngModel"></textarea>
   </div>
   <button [disabled]="form.invalid">Encore du travail ?</button>
 </form>
