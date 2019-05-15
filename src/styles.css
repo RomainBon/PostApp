@@ -1,5 +1,7 @@
 header {
+    background-color: lightgoldenrodyellow;
     text-align: center;
+    font-size: 3em;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -19,8 +21,13 @@ main {
     margin-right: auto;
     width: auto;
 }
-
-app-post div {
-background-color: lightgoldenrodyellowgit;
-
+h2 {
+    font-size: 4em;
 }
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
+
