@@ -1,6 +1,6 @@
-<div *ngFor="let post of postList" (click)="select(post)">
-  <img src="{{post.img}}">
-  <p>{{ post.user }}</p>
-  <p>{{ post.message }}</p>
-  <p>{{ post.date }}</p>
+<div *ngFor="let post of postList" (click)="select(post)" class="Post">
+    <img src="{{post.img}}">
+    <p>{{ post.user }}</p>
+    <p>{{ post.message }}</p>
+    <p>{{ post.date }}</p>
 </div>

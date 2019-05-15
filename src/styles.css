@@ -1,25 +1,23 @@
-header {
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    font-size: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-}
 
 body {
     margin:0;
-padding:0;
+    padding:0;
     background-image : url('./assets/img/image_fond_sable.jpg');
     background-size: contain;
     background-size: cover; 
 }
-
-main {
+h1{
+    margin-top:0;
+    text-align: left;
+}
+header {
+    background-color: antiquewhite;
+    color:darkgoldenrod;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    font-size: 3em;
+}
+main {
+    text-align: center; 
 }
 h2 {
     font-size: 4em;
@@ -31,7 +29,20 @@ p {
     font-size: 1.5em;
 }
 img{
+    margin-top:2em;
     width: 10%;
     height: 10%;
-    border-radius: 15em;
+    border-radius: 2em;
+}
+.Post{
+    background-color: antiquewhite;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 6em;
+    border-radius: 2em;
+    border: solid black 0.25em;
+}
+form{
+    background-color: antiquewhite;
+    padding-top:2em; 
 }
