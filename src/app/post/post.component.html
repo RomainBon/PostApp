@@ -1,0 +1,5 @@
+<div *ngFor="let post of postList" (click)="select(post)">
+  <p>{{ post.user }}</p>
+  <p>{{ post.message }}</p>
+  <p>{{ post.date }}</p>
+</div>

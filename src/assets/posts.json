@@ -1,0 +1,18 @@
+[
+    {
+        "user": "Jean Gulé",
+        "message": "coucou",
+        "date": "2019-02-01"
+    },
+    {
+        "user": "Adam Tifrise",
+        "message": "coucou coucou",
+        "date": "2019-02-06"
+    }
+    ,
+    {
+        "user": "Mylène Pelote",
+        "message": "coucou coucou",
+        "date": "2019-02-06"
+    }
+]
