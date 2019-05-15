@@ -1,18 +1,18 @@
 [
     {
         "name": "Jean Gulé",
-        "imgSrc": "/user/bla/bla"
+        "imgSrc": "../../assets/img/user_Jean_gule.jpg"
     },
     {
         "name": "Adam Tifrise",
-        "imgSrc": "/user/bla/bla"
+        "imgSrc": "../../assets/img/user_Adam_Tifrise.jpg"
     },
     {
         "name": "Mylène Pelote",
-        "imgSrc": "/user/bla/bla"
+        "imgSrc": "../../assets/img/user_mylene_pelote.jpg"
     },
     {
         "name": "Eve Olution",
-        "imgSrc": "/user/bla/bla"
+        "imgSrc": "../../assets/img/user_Eve_Olution.jpg"
     }
 ]

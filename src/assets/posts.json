@@ -1,18 +1,28 @@
 [
     {
+        "img":"../../assets/img/user_Jean_gule.jpg",
         "user": "Jean Gulé",
-        "message": "coucou",
+        "message": "Bonjour ,aujourd'hui mon boss est venu mettre son grain de sable, ça ne manquait pas de sel !",
         "date": "01/02/2019"
     },
     {
+        "img":"../../assets/img/user_Adam_Tifrise.jpg",
         "user": "Adam Tifrise",
-        "message": "coucou coucou",
+        "message": "J'aime faire du pilat(e) sur la dune !",
         "date": "09/03/2019"
     }
     ,
     {
+        "img":"../../assets/img/user_mylene_pelote.jpg",
         "user": "Mylène Pelote",
-        "message": "coucou coucou",
+        "message": "J'adore le concept ! ",
         "date": "14/04/2019"
+    },
+    {
+        "img":"../../assets/img/user_Eve_Olution.jpg",
+        "user": "Eve Olution",
+        "message": "J'aime manger des pommes sur la plage, tout en bronzant",
+        "date": "15/05/2019"
     }
+
 ]

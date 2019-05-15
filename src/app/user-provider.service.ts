@@ -15,7 +15,7 @@ export class UserProviderService {
   constructor(private http: HttpClient) { 
     this.http.get<User[]>('./assets/user.json').subscribe(posts=>{
       this.users=posts;
-      this.usersSubject.next(this.users);
+      this.usersSubject.next(this.users); 
     })
   }
 
